@@ -1,4 +1,4 @@
-var myArray = ["Bob", "Mahdi", "cyril", "juan", "mike"];
+var myArray = ["Bob", "Mahdi", "Cyril", "Juan", "Mike"];
 
 var i = 0;
 while (i != myArray.length) {
