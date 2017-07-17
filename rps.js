@@ -1,15 +1,19 @@
+var prompt = require('prompt-sync')();
+
 console.log("===============WELCOME=TO=BONELESS=ROCK=PAPER=SCISSORS===============");
 var gameProg = false;
 
-var startGame = prompt("Press any key to start!", "<Anykey>"); 
-if (startGame != null) {
+var startGame = prompt("Press the enter key to start!", "<Anykey>"); 
+if (startGame == null) {
     gameProg = true;
 }
+
 
 while (gameProg == true) {
 
 
 var pStringChoice = prompt("Make your choice! \n[R]ock \n[P]aper \n[S]cissors", "<Player choice>");
+
 var cChoice = Math.floor(Math.random() * 3 + 1);
 
 if (pStringChoice.equalsIgnoreCase("r")) {
