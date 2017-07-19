@@ -1,11 +1,14 @@
 var xCoord = 25, yCoord = 25; 
-var randNum1 = (Math.random() * 15);
-var randNum2 = (Math.random() * 15);
+var randNum1 = (Math.random() * 10);
+var randNum2 = (Math.random() * 10);
+var temp;
+var paddleCoord = height/2 - 30;
+
 
 function setup() {
     createCanvas(500, 500);
-    noLoop();
-    frameRate(1000);
+    noLoop();     
+    frameRate(60);
 }
 
 var colorList = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "pink", "brown", "white"];
@@ -13,10 +16,11 @@ var colorList = ["red", "orange", "yellow", "green", "blue", "indigo", "violet",
 function draw() {
     background("black");
 
+    stroke("white");
+    line(width/2, 0, width/2, height);
 
     xCoord = xCoord + randNum1;
     yCoord = yCoord + randNum2;  
-
 
     // Right side 
     if (xCoord >= width - 25) {
@@ -106,3 +110,7 @@ function draw() {
 function keyPressed() {
     loop();
 } 
+
+fucntion keyPressed() {
+    if()
+}

@@ -6,14 +6,15 @@ function setup() {
     strokeWeight(5);
     fill("white");
     arc(width/2, height/2, 200, 200, 0, PI, CHORD);
-    fill("purple");
+    fill("green");
     arc(width/2, height/2, 200, 200, PI, 0, CHORD);
     fill("white");
     ellipse(width/2, height/2, 50);
     fill("black");
     ellipse(width/2, height/2, 10);
 
-    textSize(32);
-    text("M", width/2 - 12, 100);
+    textSize(27);
+    fill("white")
+    text("Starbucks", width/2 - 50, 100);
 
 }
