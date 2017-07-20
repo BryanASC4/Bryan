@@ -65,12 +65,64 @@ function draw() {
         noStroke();
         fill("green");
         rect(xCoord, yCoord, xCoord + 220, yCoord + 55);
+        fill("black");
+        text("Press enter to confirm", xCoord + 10, yCoord + 10, xCoord + 220, yCoord + 55);
     }    
 
-    if (xCoord == 30) {
+    if (yCoord == 90) {
+        noStroke();
         fill("orange");
         ellipse(430, 120, 80, 80);
+        rect(310, height/2, width - 60, height - 60);
+
+        fill("black");
+        text("Type: Fire\nHealth: 200\nAttack: 30\nDefense: 30", 330, height/2 + 20, width - 60, height - 60);
     }
+    else if (yCoord == 145) {
+        noStroke();
+        fill("#00ffff");
+        ellipse(430, 120, 80, 80);
+        rect(310, height/2, width - 60, height - 60);
+
+        fill("black");
+        text("Type: Water\nHealth: 250\nAttack: 25\nDefense: 40", 330, height/2 + 20, width - 60, height - 60);        
+    }
+    else if (yCoord == 200) {
+        noStroke();
+        fill("yellow");
+        ellipse(430, 120, 80, 80);
+        rect(310, height/2, width - 60, height - 60);
+
+        fill("black");
+        text("Type: Electric\nHealth: 170\nAttack: 50\nDefense: 20", 330, height/2 + 20, width - 60, height - 60);        
+    }
+    else if (yCoord == 255) {
+        noStroke();
+        fill("#663300");
+        ellipse(430, 120, 80, 80);
+        rect(310, height/2, width - 60, height - 60);
+
+        fill("black");
+        text("Type: Electric\nHealth: 170\nAttack: 50\nDefense: 20", 330, height/2 + 20, width - 60, height - 60);          
+    }
+    else if (yCoord == 310) {
+        noStroke();
+        fill("pink");
+        ellipse(430, 120, 80, 80);
+        rect(310, height/2, width - 60, height - 60);
+
+        fill("black");
+        text("Type: Electric\nHealth: 170\nAttack: 50\nDefense: 20", 330, height/2 + 20, width - 60, height - 60);          
+    }
+    else if (yCoord == 365) {
+        noStroke();
+        fill("#990000");
+        ellipse(430, 120, 80, 80);
+        rect(310, height/2, width - 60, height - 60);
+
+        fill("black");
+        text("Type: Electric\nHealth: 170\nAttack: 50\nDefense: 20", 330, height/2 + 20, width - 60, height - 60);          
+    }            
 }  
 
 var choose;
