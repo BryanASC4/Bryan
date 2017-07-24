@@ -1,0 +1,33 @@
+body {
+    background-color: green;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+
+}
+
+p {
+    display: inline-block;
+    width: 74%;
+    vertical-align: middle;
+}
+
+.album {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    display: inline-block;
+    width: 74%;
+    vertical-align: middle;
+}

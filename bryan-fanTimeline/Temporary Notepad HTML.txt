@@ -1,0 +1,27 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XtlzvsV0P7M" frameborder="0" allowfullscreen></iframe>
+
+
+
+<DOCTYPE html>
+
+<html>
+	<head>
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+
+	<body>
+		<div>
+			<div class = "cover"> 
+				<h1>Nirvana Fan Page</h1>
+				<p>Created by Bryan Hu</p>
+				<img src = "https://kendalllacey.files.wordpress.com/2013/03/nirvana.jpg">
+				<p>Nirvana is an alternative rock band formed in Aberdeen, Washington that was active from 1987 to 1994 </p>
+				<p>They were one of the most influential bands in the music scene, characterized by their heavy and anti-mainstream music style</p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+	</body>
+</html>
