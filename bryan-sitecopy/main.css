@@ -3,9 +3,10 @@ h1 {
 }
 
 header {
+    text-align: center;
     background: url("http://il5.picdn.net/shutterstock/videos/14941786/thumb/1.jpg");
-    background-size: 
-    max-width: auto;
-    max-height: auto;
+    background-size: cover;
+    background-position: center;
+    padding
 }
 

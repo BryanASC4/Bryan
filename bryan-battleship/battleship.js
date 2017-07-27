@@ -101,6 +101,11 @@ function keyPressed() {
 
 function draw() {
 
+    stroke(255);
+    fill(0)
+    strokeWeight(5);
+    rect(xCoord, yCoord, xCoord + 50, yCoord + 50);
+
     fill(255);
     strokeWeight(1);
     line(50, 0, 50, height);
@@ -121,10 +126,9 @@ function draw() {
     line(0, 350, width, 350);
     line(0, 400, width, 400);
     
-    stroke(255);
-    strokeWeight(5);
-    fill(0);
-    rect(xCoord, yCoord, xCoord + 50, yCoord + 50);
+
+
+
 
     if (placeShip) {
         noStroke();
