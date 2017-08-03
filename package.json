@@ -1,0 +1,23 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array.js",
+  "dependencies": {
+    "prompt-sync": "^4.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanASC4/Bryan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanASC4/Bryan/issues"
+  },
+  "homepage": "https://github.com/BryanASC4/Bryan#readme"
+}
