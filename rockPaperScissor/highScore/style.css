@@ -1,0 +1,57 @@
+body{
+    background-image: url("http://www.adweek.com/wp-content/uploads/files/android_rock_paper_scissors_ep_2016.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.GObutton1{
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin: 120px;
+    background-color: #7CFC00;
+    padding: 13px;
+    color: blue;
+    font-size: 25px;
+    border-color:transparent;
+    font-family: cursive;
+    border-color:black;
+    
+
+}
+
+.GObutton2{
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin: 60px;
+    background-color: #800000;
+    padding: 13px;
+    color: white;
+    font-size: 25px;
+    border-color:transparent;
+    font-family: cursive;
+    border-color:black;
+}
+
+.GObutton3{
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin: 90px;
+    background-color: #FFF8DC;
+    padding: 13px;
+    color: red;
+    font-size: 25px;
+    border-color:transparent;
+    font-family: cursive;
+    border-color:black;
+
+
+}
+
+h1{
+    text-align: center;
+    color: #FF6347;
+
+}

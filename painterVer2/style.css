@@ -1,11 +1,29 @@
 html {
-    background-color: lightgray;
+    background-image: url("http://www.isppainting.com/wp-content/uploads/2016/07/woodbg.jpg");
 }
 
 .abcRioButton {
     margin-left: 0px;
     margin-right: 0px;
-    display: 
+}
+
+.topBar {
+    display: inline;
+}
+
+.userName {
+    display: inline;
+    font-weight: 900;
+    color: blue;
+}
+
+.send {
+    display: inline;
+}
+
+
+.google {
+    display: inline;
 }
 
 .g-signin2 {
@@ -19,17 +37,82 @@ html {
 }
 
 #defaultCanvas0 {
-    margin-top: 30px;
+    margin-top: 20px;    
+    margin-left: 5px;
+    display: inline;
+    z-index: 1;
 }
 
 #title {
     margin-right: 30px;
 }
 
-#defaultCanvas0 {
+.colorS {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.styleS {
     margin-right: 20px;
+    margin-left: 10px;
+}
+
+#title {
+    display: inline
+}
+
+.download {
     display: inline;
 }
+
+audio {
+    margin: auto; 
+    display: block;
+    padding-top: 10px;
+    size: 70%;
+}
+
+
+@media (max-width: 740px) {
+    .topBar {
+        text-align: center;
+    }
+    .userName {
+        display: block;
+    }
+    .send {
+        display: block;
+    }
+    .g-signin2 {
+        float: left;
+        display: block;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .abcRioButton {
+        display: inline-block;
+    }
+    .signOut {
+        float: left;        
+        display: inline-block;
+    }
+    #title {
+        text-align: center;
+        display: block;
+        margin-right: 0px;
+    }
+    .download {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,25 @@
+#source {
+    margin-top: 90px;
+    margin-left: 30px;
+    box-sizing: border-box; 
+    overflow-y: auto; 
+    overflow-x: auto; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    height: 600px; 
+    padding-bottom: 32px;
+    resize: none;
+    font-size: 16px;
+    font-family: Arial;
+    position: absolute;
+}
+
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/b7/77/e5/b777e5c95a05b80ed276727adbeaa555.jpg");
+    background-size: cover;
+    background-position: wrap;  
+    background-repeat: no-repeat; 
+}

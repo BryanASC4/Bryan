@@ -13,16 +13,22 @@
 
         <!--jquery-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     </head>
 
     <body>
-        <div class="topBar" style="display: inline;">
-            <h1 id="title" style="display: inline; ">HYPER PAINTER</h1>
-            <div class="userName" style="display: inline;"></div>           
-            <div class="g-signin2" data-onsuccess="onSignIn"></div>
-            <div><a style="display: inline-block;" href="#" class="signOut" onclick="onSignOut();">Sign out</a></div>
+        <div class="topBar">
+            <h1 id="title">HYPER PAINTER</h1>
+            <div class="userName"></div>  
+            <button class="download" type="button" onClick="saveCanvas()">Download</button>
+            <div class="send"></div>                 
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <div><a href="#" class="signOut" onclick="onSignOut();">Sign out</a></div>
         </div>
-        
-        
+
+
     </body>
+
+
+
 </hmtl>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 
@@ -48,22 +47,21 @@
         <link href = "style.css" ref="stylesheet"></link>
 
    </head>
-    
     <body>
-        <h1 tag="title">ROCK PAPER SCIOSSORS</h1>
+        <h1> Rock-Papers-Scissors Game </h1>
+        <div class = "buttons">
+                        <input type="button" class="GObutton1" onclick="rps('r')" value="Rock">
+                        <input type="button" class="GObutton2" onclick="rps('p')" value="Paper">
+                        <input type="button" class="GObutton3" onclick="rps('s')" value="Scissors">
+            </div>
 
-        <div class="signs">
-            <div class="g-signin2" data-onsuccess="onSignIn"></div>
-            <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
-        </div>
 
-        <div class="ChoiceBttn">
-            <input type="image" src="C:\Users\ASC Guest\Desktop\Bryan\rockPaperScissor\res\Rock.jpg" name="saveForm" class="handChoice" onClick="rps('r')"/>
-            <input type="image" src="C:\Users\ASC Guest\Desktop\Bryan\rockPaperScissor\res\Paper.jpg" name="saveForm" class="handChoice" onClick="rps('p')"/>
-            <input type="image" src="C:\Users\ASC Guest\Desktop\Bryan\rockPaperScissor\res\Scissors.jpg" name="saveForm" class="handChoice" onClick="rps('s')"/>
-        </div>
 
-        <div class="output"></div>
+            <input type="text" class="userName"value="Name">
+            <intput type="submit" class="enter" value="Submit">
+
+
+
 
     </body>
 </html>
