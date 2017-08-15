@@ -1,5 +1,8 @@
 html {
-    background-image: url("http://www.isppainting.com/wp-content/uploads/2016/07/woodbg.jpg");
+}
+
+body {
+        background-image: url("http://www.isppainting.com/wp-content/uploads/2016/07/woodbg.jpg");
 }
 
 .abcRioButton {
@@ -44,6 +47,7 @@ html {
 }
 
 #title {
+    font-family: "Verdana";
     margin-right: 30px;
 }
 
@@ -69,7 +73,21 @@ audio {
     margin: auto; 
     display: block;
     padding-top: 10px;
-    size: 70%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.alert-link {
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+.alert-success {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 0 0 0 0;
 }
 
 

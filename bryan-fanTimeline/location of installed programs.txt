@@ -1,0 +1,4 @@
+Java SE DEv Kit: Program-files/Java
+
+Android Studio: C:\Program Files\Android\Android Studio
+Android SDK: C:\Users\ASC Guest\AppData\Local\Android\Sdk
